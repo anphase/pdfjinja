@@ -1,5 +1,6 @@
 pdfjinja
 ========
+This is a fork for Python3 compatibility with xrange
 
 .. image:: https://img.shields.io/badge/License-MIT%20License-blue.svg
   :target: https://raw.githubusercontent.com/rammie/pdfjinja/master/LICENSE
