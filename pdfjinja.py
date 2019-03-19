@@ -8,6 +8,11 @@ import sys
 import os
 import time
 
+try:
+    xrange
+except NameError:
+    xrange = range
+
 from fdfgen import forge_fdf
 from jinja2 import Environment, TemplateSyntaxError
 from pdfminer.pdfparser import PDFParser
